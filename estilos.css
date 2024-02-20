@@ -1,0 +1,106 @@
+body {
+  background-image: url(reisesmagos.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.oculto {
+  display: none;
+}
+#menuButton3 {
+  background-image: url(Rey-Baltasar.webp);
+  background-repeat: no-repeat;
+  background-size: 3rem;
+  background-position: center;
+  width: 5rem;
+  height: 5rem;
+  color: rgb(126, 180, 226);
+ }
+#menuButton2 {
+  background-image: url(melchor.jpg);
+  background-repeat: no-repeat;
+  background-size: 3rem;
+  background-position: center;
+  width: 5rem;
+  height: 5rem;
+  color: rgb(126, 180, 226);
+}
+#menuButton1 {
+  background-image: url(Rey-Gaspar.webp);
+  background-repeat: no-repeat;
+  background-size: 3rem;
+  background-position: center;
+  width: 5rem;
+  height: 5rem;
+  color: rgb(126, 180, 226);
+  }
+.carta {
+  padding: 10px;
+  margin: 1rem; 
+  animation: variacion 3s;
+}
+#main {
+  display: flex;
+  flex-direction: row;
+  margin: 30px;
+}
+P {
+  font-size: 1.6rem;
+  font-style: oblique;
+  animation: variacion 3s;
+}
+#parrafo {
+  display: flex;
+  justify-content: right;
+  margin: 50px;
+}
+h1 {
+  font-display: flex;
+  justify-items: center;
+  color: red;
+  animation: variacion 3s;
+}
+#envio {
+  display: flex;
+  flex-direction: row;
+  font-size: 2rem;
+  animation: variacion 3s;
+}
+#cajon {
+  padding: 30px;
+  font-size: 1.2rem;
+}
+#name{
+  margin: 2px;
+  animation: variacion 3s;
+}
+#nav{
+  margin: 15px;
+}
+footer{
+  display: flex;
+  flex-direction: center;
+}
+#parrafo{
+  border: 5px solid red;
+  padding: 10px;
+}
+@keyframes variacion {
+  0%{
+    opacity:0;
+  }
+  10%{
+    opacity: 0.1:
+  }
+  20%{
+    opacity: 0.4;
+      }
+40%{
+  opacity: 0.5;
+}
+50%{
+  opacity: 0.8;
+}
+100%{
+  opacity: 1;
+}
+}
